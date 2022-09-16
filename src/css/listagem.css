@@ -1,0 +1,160 @@
+.listagem{
+width: auto;
+height: auto;
+display: flex;
+
+
+}
+.listagemativo{
+	display: none;
+}	
+
+.listagem .pokemon{
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 0px;
+    background-color: #FCAF26;
+    color: #ffffff;
+    padding: 0 5px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.15s ease-in-out;
+}
+
+.title {
+	position: absolute;
+	top: 1700px;
+	right: 50px;
+}
+
+.texto {
+	position: absolute;
+	top: 1800px;
+	left: 990px;
+	font-size: 23px;
+}
+
+.title1 {
+	position: absolute;
+	top: 900px;
+	left: 100px;
+	color: black;
+	
+}
+
+.texto1 {
+	position: absolute;
+	top: 1000px;
+	right: 990px;
+	color: black;
+	font-size: 23px;
+}
+.title2 {
+	position: absolute;
+	top: 3900px;
+	right: 850px;
+	color: black;
+}
+
+.texto2 {
+	position: absolute;
+	top: 4000px;
+	right: 900px;
+	color: black;
+	font-size: 23px;
+}
+.title3 {
+	position: absolute;
+	top: 4610px;
+	left: 550px;
+}
+
+.texto3 {
+	position: absolute;
+	top: 4750px;
+	right: 780px;
+	COLOR: BLACK;
+	font-size: 23px;
+}
+
+.text3 {
+	position: absolute;
+	top: 4750px;
+	right: 250px;
+	COLOR: BLACK;
+	font-size: 23px;
+}
+
+.title8 {
+	position: absolute;
+	top: 300px;
+	right: 970px;
+	color: black;
+}
+
+.texto8 {
+	position: absolute;
+	top: 400px;
+	right: 870px;
+	color: black;
+	font-size: 23px;
+}
+.title9 {
+	position: absolute;
+	top: 2300px;
+	right: 270px;
+	color: black;
+}
+
+.texto9 {
+	position: absolute;
+	top: 2400px;
+	right: 70px;
+	color: black;
+	font-size: 23px;
+}
+.title10 {
+	position: absolute;
+	top: 3300px;
+	right: 870px;
+	color: black;
+}
+
+.texto10 {
+	position: absolute;
+	top: 3400px;
+	right: 700px;
+	color: black;
+	font-size: 23px;
+}
+
+.listagem .pokemon.ativo{
+    background-color: #FCAF26;
+}
+.listagem .pokemon a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.pokedex span{
+	display:flex;
+	align-items: center;
+	max-width: 1000px;
+	margin-left: 30px;
+}
+.pokedex nav{
+	display: flex;
+	width: 1800px;
+	height: auto;
+	overflow-y: scroll;
+	overflow-x: scroll;
+	margin-left: 20px;
+	margin-bottom: 10px;
+    padding: 0 5px;
+}
+::-webkit-scrollbar {
+display: none;
+}
